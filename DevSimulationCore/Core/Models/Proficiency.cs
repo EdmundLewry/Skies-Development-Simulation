@@ -1,6 +1,3 @@
 ﻿namespace Cbs.DevSimulation.Core;
 
-public class Class1
-{
-
-}
+public record Proficiency(int Value);
