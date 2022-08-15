@@ -20,6 +20,7 @@ A **TEAM** of **DEVELOPERS** take on a **PROJECT** which consists of **TASKS** i
 - Technical Debt/Code Rot
 - Technical Debt Resolution Strategy
 - Feature Themes (e.g. milestones)
+- Sprints
 
 ## Potential Applications
 - Source Project from Jira

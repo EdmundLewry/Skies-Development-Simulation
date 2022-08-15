@@ -1,14 +1,22 @@
-﻿namespace Cbs.DevSimulation.Core.Simluation;
+﻿namespace Cbs.DevSimulation.Core.Simulation;
 
 public class Simulator
 {
-    public Simulator()
-    {
+    private const int VelocityPeriodInWorkingDays = 10;
 
-    }
+    public event EventHandler<SimulationReport>? OnSimulationEnd;
 
-    public Task Simulate(Project project, Team team)
+    public void Simulate(ProjectSimulation simulation, Team team)
     {
-        return Task.CompletedTask;
+        Project project = simulation.Project;
+        DateTime completionDate = simulation.Start;
+
+        foreach (var feature in project.Features)
+        {
+            foreach (var task in feature.Tasks)
+            {
+                
+            }
+        }
     }
 }
