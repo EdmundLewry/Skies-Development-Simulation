@@ -1,5 +1,4 @@
 # Skies Development Simulation
-
 In this repository you'll find a relatively simple project intended to simulate the development of software projects by teams of developers. It consists of a core domain and several applications which make use of it.
 
 As a minimum, it should be able to output:
@@ -16,8 +15,11 @@ The simulation domain will be geared towards applications which gamify or creati
 A **TEAM** of **DEVELOPERS** take on a **PROJECT** which consists of **TASKS** in order to create **FEATURES**. Each task has **REQUIREMENTS** which make it more efficient to complete if the developer has **PROFICIENCY** in the required **SKILL**.
 
 ##  Potential Model Extensions
-
 - Task Dependencies
 - Developer Growth
 - Technical Debt/Code Rot
 - Technical Debt Resolution Strategy
+- Feature Themes (e.g. milestones)
+
+## Potential Applications
+- Source Project from Jira
